@@ -6,7 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),RPDuo)
 
-$(call add-radio-file-sha1-checked,radio/abl.img,9b2f49a30376954c311a715a269e2a7313f6fe29)
+$(call add-radio-file-sha1-checked,radio/abl.img,325ccc96ae9c58ea7b4390312c79c9bbd7263810)
 $(call add-radio-file-sha1-checked,radio/aop.img,d701fa3b17275b2c16395a764e06da6aac7712f7)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,31c5fae9ee8941640d4f8b48012a44d614eb03f8)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,a48a14e72a7666bc79c0c6e535c09c3e0dc97341)
